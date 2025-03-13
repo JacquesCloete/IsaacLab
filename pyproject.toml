@@ -90,6 +90,13 @@ reportGeneralTypeIssues = "none"       # -> raises 218 errors (usage of literal 
 reportOptionalMemberAccess = "warning" # -> raises 8 errors
 reportPrivateUsage = "warning"
 
+extraPaths = [
+    "source/isaaclab",
+    "source/isaaclab_mimic",
+    "source/isaaclab_rl",
+    "source/isaaclab_tasks",
+    "source/isaaclab_assets",
+]
 
 [tool.codespell]
 skip = '*.usd,*.svg,*.png,_isaac_sim*,*.bib,*.css,*/_build'
